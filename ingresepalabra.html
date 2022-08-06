@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Ingrese una palabra</title>
+
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="IMAGENES/Logo.svg" alt="Alura" class="logo"></a> 
+    </header>
+    <main>
+        <section>
+            <form>
+                <label for="nueva_palabra"></label>
+                <input type="text" id="nueva_palabra" class="input" required placeholder="Ingrese el texto aqui" autocomplete="off">
+               <div class="botones">
+                    <button type="button" class="empezar" ><a href="#" id="botonguardar">Guardar Palabra</a></button>
+                    <button type="button" class="cancelar"><a href="index.html" id="botoncancelar">Cancelar</a></button>
+                    <button type="button" class="empezar"><a href="juego.html" id="botonempezar">Jugar</a></button>
+                </div>
+            </form>
+
+            <div class="aviso-input">
+                <img src="IMAGENES/bi_exclamation-circle-fill.svg" alt="exclamacion">
+                <p>Máx. de 8 letras</p>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="JS/guardar_palabra.js" ></script>
+</body>
+<footer class="footer">
+    <div class="redes_sociales">
+        <a class="icono" href="https://twitter.com/home"><img src="/Challenge1 -alura-ONE/imagenes/social-twitter-icon_34350.ico" alt="Twitter"></a>
+        <a class="icono" href="https://www.linkedin.com/feed/"><img src="/Challenge1 -alura-ONE/imagenes/linkedin_socialnetwork_17441.ico" alt="Linkedin"></a>
+        <a class="icono" href="https://github.com/ezequ1el2208"><img src="/Challenge1 -alura-ONE/imagenes/Github_icon-icons.com_66788.ico" alt="Github"></a>
+    </div>
+    <p class="parrafo">Copyright &#169 2022 - Todos los derechos reservados - Desarrollado por Ezequiel Alejandro Martinez</p>
+</footer>
+</html>

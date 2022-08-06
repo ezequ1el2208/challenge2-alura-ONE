@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/principal.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <title>Juego del ahorcado</title>
+</head>
+
+<body>
+    <header>
+       <a href="index.html"><img src="IMAGENES/Logo.svg" alt="Alura" class="logo"></a> 
+    </header>
+
+    <div>
+        <canvas id="canvas" width="1200" height="800"></canvas>
+
+        <p id="palabra_a_adivinar"></p>
+        <p id="letras_usadas"></p>
+        <p id="resultado"></p>
+
+        <div id="letras">
+            <button class="key">A</button>
+            <button class="key">B</button>
+            <button class="key">C</button>
+            <button class="key">D</button>
+            <button class="key">E</button>
+            <button class="key">F</button>
+            <button class="key">G</button>
+            <button class="key">H</button>
+            <button class="key">I</button>
+            <button class="key">J</button>
+            <button class="key">K</button>
+            <button class="key">L</button>
+            <button class="key">M</button>
+            <button class="key">N</button>
+            <button class="key">Ñ</button>
+            <button class="key">O</button>
+            <button class="key">P</button>
+            <button class="key">Q</button>
+            <button class="key">R</button>
+            <button class="key">S</button>
+            <button class="key">T</button>
+            <button class="key">U</button>
+            <button class="key">V</button>
+            <button class="key">W</button>
+            <button class="key">X</button>
+            <button class="key">Y</button>
+            <button class="key">Z</button>
+        </div>
+        <div class="botones_juego">
+            <button class="nuevojuego" id="jugar">Iniciar</button>
+            <button class="desistir" id="botondesistir"><a href="index.html">Cancelar</a></button>
+        </div>
+    </div>
+    </main>
+    <script type="module" src="JS/juego.js" ></script>
+    <script type="module" src="JS/guardar_palabra.js" ></script>
+</body>
+<footer class="footer">
+    <div class="redes_sociales">
+        <a class="icono" href="https://twitter.com/home"><img
+                src="/Challenge1 -alura-ONE/imagenes/social-twitter-icon_34350.ico" alt="Twitter"></a>
+        <a class="icono" href="https://www.linkedin.com/feed/"><img
+                src="/Challenge1 -alura-ONE/imagenes/linkedin_socialnetwork_17441.ico" alt="Linkedin"></a>
+        <a class="icono" href="https://github.com/ezequ1el2208"><img
+                src="/Challenge1 -alura-ONE/imagenes/Github_icon-icons.com_66788.ico" alt="Github"></a>
+    </div>
+    <p class="parrafo">Copyright &#169 2022 - Todos los derechos reservados - Desarrollado por Ezequiel Alejandro
+        Martinez</p>
+</footer>
+
+</html>

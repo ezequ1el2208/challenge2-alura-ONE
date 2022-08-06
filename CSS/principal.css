@@ -1,0 +1,285 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+    background: #F3F5FC;
+}
+.logo {
+    display: flex;
+    gap: 40px;
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
+.botoniniciar {
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+    background: #0A3871;
+    border-radius: 24px;
+}
+#textobotoniniciar {
+    width: 269px;
+    height: 66px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.btnnuevapalabra {
+    box-sizing: border-box;
+    padding: 24px;
+    gap: 8px;
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+.btnnuevapalabra_txt {
+    width: 232px;
+    height: 19px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    text-decoration: none;
+}
+/*Aca empieza el estilo de la pagina ingresepalabra.html*/
+.input {
+    position: absolute;
+    width: 577px;
+    height: 48px;
+    left: 376px;
+    top: 256px;
+    font-size: 32px;
+    background-color: #F3F5FC;
+    border: none;
+}
+.input::placeholder {
+    color: #0A3871;
+}
+.aviso-input {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 290px;
+    height: 18px;
+    left: 230px;
+    top: 667px;
+}
+.botones {
+    display: flex;
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    left: 226px;
+    top: 701px;
+}
+.empezar {
+    padding: 24px;
+    width: 280px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    margin: 0px 8px;
+}
+#botonguardar {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    text-decoration: none;
+}
+.cancelar {
+    padding: 24px;
+    width: 280px;
+    height: 67px;
+    left: 352px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    margin: 0px 8px;
+}
+#botoncancelar {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    text-decoration: none;
+}
+#botonempezar {
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    text-decoration: none;
+}
+/*Aca empieza el estilo de la pagina juego.html*/
+#palabra_a_adivinar {
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+    position: absolute;
+    width: 464px;
+    height: 50px;
+    left: 620px;
+    top: 528px;
+    color: #0A3871;
+}
+#palabra_a_adivinar span{
+    margin-right: 6px;
+    vertical-align: bottom;
+    font-size: 2em;
+    border-bottom: 3px solid #0A3871;
+    width: 30px;
+    text-align: center;
+    display:inline-block; /* sin esto, por ser un elemento de línea, no tomaría el width */
+}
+#letras {
+    position: absolute;
+    width: 560px;
+    left: 450px;
+    top: 650px;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 9px;
+    
+}
+.key {
+    color:#FFFFFF;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: #0A3871;
+}
+
+.noKey {
+    color:#FFFFFF;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    margin: 2px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: gray;
+}
+
+#letras_usadas{
+    position: absolute;
+    font-size: 2em;
+    left: 630px;
+    top: 580px;
+    color: #0A3871;
+}
+
+.botones_juego {
+    display: flex;
+    gap: 24px;
+    position: absolute;
+    width: 688px;
+    height: 67px;
+    left: 376px;
+    top: 901px;
+}
+.nuevojuego {
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;    
+}
+#jugar {
+    width: 284px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+.desistir {
+    box-sizing: border-box;
+    padding: 24px;
+    gap: 8px;
+    width: 332px;
+    height: 67px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    flex: none;
+    flex-grow: 1;
+    
+}
+#botondesistir {
+    text-decoration: none;
+    width: 284px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    flex: none;
+    flex-grow: 1;
+    
+}
+#botondesistir a{
+    text-decoration: none;
+    
+}
+a:visited{
+    color: #0A3871;
+}
+#resultado {
+    position: absolute;
+    top: 470px;
+    left: 596px;
+    font-size: 20px;
+    color: #0A3871;
+}
+
+.footer{
+    position: absolute;
+    top: 1000px;
+    width: 1500px;
+ }
+ 
+ .redes_sociales{
+     width: 90%;
+     display: flex;
+     justify-content: center;
+ }
+ 
+ .icono{
+     margin: 20px;
+ }
+ 
+ .parrafo{
+     width: 90%;
+     text-align: center;
+ }
